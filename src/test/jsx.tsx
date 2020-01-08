@@ -106,7 +106,7 @@ describe('snabbdom', function () {
         children: [
           { sel: 'a', data: { attrs: { href: 'https://github.com/snabbdom/snabbdom' } }, text: 'Snabbdom' },
           { text: 'and tsx' },
-          { sel: 'span', data: {}, text: 'work' },
+          { sel: 'span', data: {}, text: 'fails' },
           { sel: 'span', data: {}, text: 'like' },
           { sel: 'span', data: {}, text: 'a' },
           { sel: 'span', data: {}, text: 'charm!' },
