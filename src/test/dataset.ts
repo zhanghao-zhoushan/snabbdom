@@ -1,5 +1,6 @@
 import { assert } from 'chai'
 
+import 'js-polyfills/html'
 import datasetModule from '../modules/dataset'
 import { init } from '../snabbdom'
 import h from '../h'
